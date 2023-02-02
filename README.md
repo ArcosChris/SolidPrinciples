@@ -8,7 +8,8 @@ but it could be useful to anyone out there who feels a bit stuck with
 these topics. I am not a teacher or instructor this is just based on 
 information I have learned.
 
-In this repository there are different packages in <code>/src/com/solidprinciples</code>
+In this repository there are different packages in <code>/src/com/solidprinciples.</code>
+
 The different packages have information for the different principles in SOLID.
 
 1. **SRP - Single Responsibility Principle**
