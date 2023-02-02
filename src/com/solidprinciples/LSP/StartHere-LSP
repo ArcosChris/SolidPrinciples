@@ -1,0 +1,16 @@
+--------------------LISKOV SUBSTITUTION PRINCIPLE---------------------------
+
+- LSP States that object of a superclass should be able to be replaced with objects of a subclass without altering
+the correctness of the program.
+
+- Check out the Vehicle Class, Car, Boat, and Motorcycle Classes.
+- Then go check out Main within the package.
+- The DMV class expects a Vehicle but we have the ability to pass in any of the subclasses of VEHICLE
+
+- ANOTHER EXAMPLE IN TEXT :
+
+If we have a Bird base class (superclass) and a Penguin subclass. The Bird class has a method called fly.
+The Penguin clas inherits from Bird and can override the fly method to do nothing since penguins don't fly.
+
+- LSP states that if a program expects a Bird Object it should work with a Penguin object as well because Penguin
+is a specific type of Bird and can substitute the Bird object.

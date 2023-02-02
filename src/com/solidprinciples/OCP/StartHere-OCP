@@ -1,0 +1,6 @@
+----------------------OPEN CLOSED PRINCIPLE--------------------------
+
+- States that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+- Existing code should not be modified but it should be possible to add new functionality without changing the existing code.
+
+- Check out the FileHelper class to see how OCP can be implemented

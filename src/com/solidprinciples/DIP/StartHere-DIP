@@ -1,0 +1,23 @@
+--------------------DEPENDENCY INVERSION PRINCIPLE--------------------------
+States that high-level modules should not depend on low-level modules, but both should depend on abstractions.
+
+- What does that even mean?
+    - Let's look at an example to help us get a better understanding of this.
+
+--Without DIP-- ** ALL FILES IN MANAGER.JAVA FOR SIMPLICITY**
+1. - Take a look at the Manager class, in the Manager class we are dependent on the Employee class. So if the Employee class
+     ever changes, the Manager class will also need to change. :(
+
+   - This creates tight coupling between the two different classes
+
+2. - Checkout Manager Class
+
+--With DIP-- **ALL FILES IN WORKER.JAVA FOR SIMPLICITY**
+
+1. - Look at the Worker Interface, EmployeeDIP and ManagerDIP (of course we would not name classes like this but in this case it is to separate
+    the classes using Dependency Inversion Principle and the ones that are not)
+
+2. - In the ManagerDIP class you will see that the Manager is no longer dependent on EmployeeDIP concrete implementation but its dependent on the Worker interface(non-concrete)
+
+   - This makes the code more flexible and maintainable. Now you can change the implementation of the Employee class without affecting the Manager Class.
+     AS LONG AS EMPLOYEE class continues to IMPLEMENT Worker INTERFACE.

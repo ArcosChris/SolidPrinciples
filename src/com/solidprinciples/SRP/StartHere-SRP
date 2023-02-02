@@ -1,0 +1,9 @@
+--------------------------SINGLE RESPONSIBILITY PRINCIPLE-------------------------------
+
+States that a class should only have one reason to change, meaning it should only have one responsibility.
+
+ISSUE:
+- If we have a car class which has both the responsibilities of driving and playing music <- this violates SRP
+
+- Check out the Car class to see a bad implementation
+- Check out the CarSRP and RadioSRP classes to see a better implementation using Single Responsibility Principle
